@@ -1,0 +1,28 @@
+.headimage{
+    color: black;
+    background-image: url('https://images.unsplash.com/photo-1604543456734-4559dd906a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80');
+background-position-y: center;
+background-size: cover;
+font-family: 'El Messiri', sans-serif;
+}
+.navText {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: yellow;
+}
+.sideNav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: .5;
+    left: 0;
+    background-color:grey;
+    overflow-x: hidden;
+    }
+
+.sideNav a {
+        color:yellow;
+        font-family: 'El Messiri', sans-serif;
+
+    }
