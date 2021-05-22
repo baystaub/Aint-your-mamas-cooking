@@ -1,3 +1,4 @@
+const { stringify } = require('querystring');
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -17,6 +18,15 @@ Recipes.init(
     },
     description: {
       type: DataTypes.STRING,
+      allownull: false,
+    },
+    detail: {
+      type: DataTypes.INTEGER,
+      allownull: false,
+    },
+    cuisineType: {
+      type: DataTypes.STRING,
+      allownull: true,
     },
     date_created: {
       type: DataTypes.DATE,
