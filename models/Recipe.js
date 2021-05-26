@@ -1,3 +1,4 @@
+const { stringify } = require('querystring');
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -11,12 +12,41 @@ Recipes.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    Image: {
+      type: DataTypes.STRING,
+      allownull: true,
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    summary: {
       type: DataTypes.STRING,
+      allownull: false,
+    },
+    Instructions: {
+      type: DataTypes.STRING,
+      allownull: false,
+    },
+    ingredients: {
+      type: DataTypes.STRING,
+      allownull: false,
+    },
+    serves: {
+      type: DataTypes.INTEGER,
+      allownull: false,
+    },
+    prepTime: {
+      type: DataTypes.STRING,
+      allownull: true,
+    },
+    cookTime: {
+      type: DataTypes.INTEGER,
+      allownull: true,
+    },
+    cuisineType: {
+      type: DataTypes.STRING,
+      allownull: true,
     },
     date_created: {
       type: DataTypes.DATE,
