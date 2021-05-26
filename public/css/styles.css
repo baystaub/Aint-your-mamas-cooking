@@ -43,22 +43,22 @@ font-family: 'El Messiri', sans-serif;
     border-radius: 10px;
     background-color: var(--light);
     color: var(--dark);
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: auto;
   }
 
   .card-body {
+    float: right;  
     font-size: 1.4rem;
     text-align: center;
     font-weight: bold;
   }
-
-  .container {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: flex-start;
-    align-items: center;
+  .card-img-top {
+    max-width: auto;
+    max-height: 250px;
   }
-
-
+  
   #upload {
     opacity: 0;
 }
