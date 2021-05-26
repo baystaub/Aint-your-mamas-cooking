@@ -1,0 +1,66 @@
+<div id="this-recipe container" class="this-recipe container" data-recipe-id="{{recipe.id}}">
+
+    <div class=" this-recipe col-12">
+        <div class="8">
+            <div class="this-recipe-image"><img width="300" height="300" src="{{recipie.image}}"></noscript>
+            </div>
+        </div>
+        <div class="toprightwrap col-8">
+            <div class="recipe-name this-color-header">{{recipe.name}}</div>
+            <div class="recipe-times-container this-color-border">
+                <div class="time-container this-color-border">
+                    <div class="recipe-time-header">Prep Time</div>
+                    <div class="recipe-time"><span class="">{{recipe.prepTime}}</span>mins</div>
+                </div>
+                <div class="recipe-time-container this-color-border">
+                    <div class="this-recipe-time-header">Cook Time</div>
+                    <div class="this-recipe-time"><span class=" cook-time">{{recipe.cookTime}}</span>mins</span></div>
+                </div>
+                <div class="recipe-time-container this-color-border">
+                    <div class="recipe-serves ">Serves</div>
+                    <div class="recipe-serves"><span class="this-serves">{{recipe.serves}}</span>
+                    </div>
+                </div>
+                <div class="this-clear-left"></div>
+            </div>
+            <div class="this-recipe-summary">
+                <p>{{summary}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="this-recipe-cuisine-container">
+            <span class="this-recipe-cuisine-name">Cuisine:</span>
+            <span class="this-recipe-cuisine">  {{cuisineType}} </span>
+        </div>
+        <div class="this-recipe-author-container">
+            <span class="this-recipe-details-name this-recipe-author-name">Author</span>: <span
+                class="this-recipe-details this-recipe-author">{{user.name}}</span>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="col-6">
+            <div class="this-recipe-header-ingredient this-color-header">Ingredients</div>
+            <div class="this-recipe-ingredient-group">
+                <ul class="this-recipe-ingredients">
+                    {{recipe.ingredients}}
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="this-recipe-instructions-container">
+                <div class="this-recipe-header this-color-header">Instructions</div>
+                <div class="this-recipe-instruction-group">
+                    <ol class="this-recipe-instructions">
+                        {{recipe.instructions}}
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
