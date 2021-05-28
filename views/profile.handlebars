@@ -17,7 +17,7 @@
 
       <div class="form-group">
         <label for="cuisine-type"> Cuisine-type:</label>
-        <select class="form-control">
+        <select class="form-control" id="cuisine-type" >
           <option>Latin</option>
           <option>American</option>
           <option>Asian</option>
@@ -27,16 +27,16 @@
       </div>
 
       <div class="form-group">
-        <label for="prep-time">Prep time:</label>
+        <label for="prepTime">Prep time:</label>
         <input class="form-input" type="number" id="prep-time" name="prep-time" />
       </div>
       <div class="form-group">
-        <label for="cook-time">Cook Time:</label>
+        <label for="cookTime">Cook Time:</label>
         <input class="form-input" type="number" id="cook-time" name="cook-time" />
       </div>
       <div class="form-group">
-        <label for="feeds">Feeds:</label>
-        <input class="form-input" type="number" id="feeds" name="feeds" />
+        <label for="serves">Serves:</label>
+        <input class="form-input" type="number" id="serves" name="serves" />
       </div>
 
       <div class="form-group">
@@ -51,6 +51,7 @@
             </div>
             <div class="ingredients-list">
               <ul id="ingredients-list">
+                
               </ul>
             </div>
           </div>
@@ -58,8 +59,13 @@
       </div>
 
       <div class="form-group">
-        <label for="recipe-desc">Directions:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+        <label for="recipe-desc">Instructions:</label>
+        <textarea class="form-input" id="recipe-desc" name="recipe-desc"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="recipe-desc">Summary:</label>
+        <textarea class="form-input" id="recipe-summary" name="recipe-summary"></textarea>
       </div>
 
       <div class="row py-4">

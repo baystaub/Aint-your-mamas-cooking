@@ -1,0 +1,18 @@
+            <section class=" row justify-content-center comment-input ">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h6>Comments</h6>
+                        {{#each commentsPlain as |comment|}}
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="author-name">by {{comment.user.name}}</div>
+                                    <div id="post-date">{{format_date comment.createdAt}}</div>
+                                </h5>
+                                <p class="card-text">{{comment.comment}}</p>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </section>

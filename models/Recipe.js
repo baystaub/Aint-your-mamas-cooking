@@ -24,7 +24,7 @@ Recipes.init(
       type: DataTypes.STRING,
       allownull: false,
     },
-    Instructions: {
+    instructions: {
       type: DataTypes.STRING,
       allownull: false,
     },
