@@ -15,57 +15,59 @@
 </head>
 
 <body>
-    <div class=" headimage col-12 jumbotron mb-0">
+    <div class=" headimage col-12 jumbotron sticky-top mb-0">
         <h1 class=" text-center"> <a href="/"></a> Aint Your MAMAS Cooking!!
         </h1>
     </div>
 
-    <header class="mt-0 col-12 flex-shrink-0">
-        <div class="sideNav flex-shrink-0 p-3" style="width: 280px;">
-            <ul class="list-unstyled ps-0">
-                <li class="mb-1">
-                    <a href="/" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#home-collapse" aria-expanded="false">
-                        Home
-                    </a>
-                </li>
-                <li class="mb-1">
-                    <a href="/#" class="btn btn-toggle align-items-center rounded collapsed"
-                        data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                        Recipes
-                    </a>
-                </li>
-                <li class="mb-1">
-                    <a href="/#" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#orders-collapse" aria-expanded="false">
-                        Random Recipe
-                    </a>
-                </li>
-                <li class="mb-1">
-                    <a href="/#" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#account-collapse" aria-expanded="false">
-                        Blogs
-                    </a>
-                </li>
-                <li class="mb-1">
-                    <a href="/#" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#account-collapse" aria-expanded="false">
-                        Profile
-                    </a>
-                </li>
-                <li class="mb-1">
-                    <a href="/#" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#account-collapse" aria-expanded="false">
-                        Login
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <main class="container rightSide mt-5">
-        {{body}}
-    </main>
+    <main>
+        <section class="row">
+            <aside class="col-2 flex-shrink-0 ">
+                <div class="sideNav flex-shrink-0 p-3" style="width: 280px;">
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <a href="/" class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                                Home
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="/#" class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                                Recipes
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="/#" class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                                Random Recipe
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="/#" class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                                Blogs
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="/#" class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                                Profile
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="/#" class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                                Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
 
+            {{body}}
+        </section>
+    </main>
 
 
 

@@ -25,11 +25,11 @@ Recipes.init(
       allownull: false,
     },
     instructions: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allownull: false,
     },
     ingredients: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allownull: false,
     },
     serves: {
