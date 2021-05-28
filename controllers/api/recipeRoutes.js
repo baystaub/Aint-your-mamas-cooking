@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Recipes } = require('../../models');
+
 router.post('/', async (req, res) => {
   try {
     const recipeData = await Recipes.create({
@@ -13,6 +14,8 @@ router.post('/', async (req, res) => {
     res.status(400).json(error);
   }
 });
+
+
 router.get('/edit/:id', async (req, res) => {
   try {
     const recipeData = await Recipes.findByPk(req.params.id);
@@ -22,6 +25,8 @@ router.get('/edit/:id', async (req, res) => {
     res.status(400).json(error);
   }
 });
+
+
 router.put('/:id', async (req, res) => {
   try {
     const recipeData = await Recipes.update(
@@ -40,6 +45,8 @@ router.put('/:id', async (req, res) => {
     res.status(400).json(error);
   }
 });
+
+
 router.delete('/:id', async (req, res) => {
   try {
     const recipeData = await Recipes.destroy({
