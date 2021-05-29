@@ -13,6 +13,10 @@ router.get('/', async (req, res) => {
           model: User,
           attributes: ['userName'],
         },
+        {
+          model: Comment,
+          
+        }
       ],
     });
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));

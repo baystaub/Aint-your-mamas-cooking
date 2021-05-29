@@ -10,15 +10,19 @@ font-family: 'El Messiri', sans-serif;
     text-decoration: none;
     color: yellow;
 }
+
 .sideNav{
     height: 100%;
     width: 160px;
+    display: block;
     position: fixed;
     z-index: 1;
     top: .5;
     left: 0;
     background-color:grey;
     overflow-x: hidden;
+    text-align: center;
+    flex: none;
     }
 
 .sideNav a {
@@ -35,6 +39,9 @@ font-family: 'El Messiri', sans-serif;
          margin-right: -15px;
         
 }
+aside{
+    display: block;
+}
 
 .card {
     margin: 20px;
@@ -47,6 +54,14 @@ font-family: 'El Messiri', sans-serif;
     max-width: 500px;
     max-height: auto;
   }
+
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    align-items: center;
+  }
+
 
   .card-body {
     float: right;  
@@ -92,4 +107,53 @@ font-family: 'El Messiri', sans-serif;
 .image-area img {
     z-index: 2;
     position: relative;
+}
+
+
+.this-recipe{
+   
+    justify-content: center;
+    margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.this-recipe-image{
+    border: black solid;
+
+}
+
+.this-recipe-container{
+    border: black dashed;
+    background-color: lavender;
+}
+
+.this-recipe-details{
+    background-color:cadetblue;
+    border-color: rgb(17, 17, 17);
+    border-top: dashed;
+    border-right: dashed;
+    border-left: dashed ;
+    font-size: 1.2rem;
+}
+
+.this-recipe-cuisine-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'El Messiri', sans-serif;
+    border: rgb(142, 245, 25);
+    border:double;
+}
+
+
+.comment-input{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.mtb{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
