@@ -11,12 +11,12 @@ router.get('/', async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ['userName'],
         },
       ],
     });
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
-    res.render('welcome', {
+    res.render('recipe', {
       recipes,
       signIn: req.session.signIn,
       valid: req.query.valid,
@@ -57,7 +57,7 @@ router.get('/', withauth, async (req, res) => {
     include: [
       {
         model: User,
-        attributes: ['name'],
+        attributes: ['userName'],
       },
     ],
   });
