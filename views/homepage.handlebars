@@ -1,0 +1,44 @@
+<section id="My-Work" class="row justify-content-center mtb">
+  <div class="col-12  text-center">
+    <h2>Ain't Your Mamas Recipes</h2>
+    <p>Hello Welcome to Aint Your Mamas Cooking a place to learn unconventional recipes and ways to cook</p>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide col-12 col-md-6" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        {{#each recipes as |recipe| }}
+        <a href="/recipe/{{recipe.[1]}}">
+          <img width="300px" height="100%" class="d-block w-100" src="{{recipe.[1].image}}" alt="First slide">
+          {{recipe.[1].name}}
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="/recipe/{{recipe.[2]}}">
+          <img width="300px" height="100%" class="d-block w-100" src="{{recipe[2].image}}" alt="Second slide">
+          {{recipe.[2].name}}
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="/recipe/{{recipe.[3]}}">
+          <img width="300px" height="100%" class="d-block w-100" src="{{recipe[2].image}}" alt="Third slide">
+          {{recipe.[3].name}}
+        </a>
+      </div>
+    </div>
+    {{/each}}
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon blue" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon blue" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>

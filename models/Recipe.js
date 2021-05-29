@@ -12,17 +12,37 @@ Recipes.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    Image: {
+      type: DataTypes.STRING,
+      allownull: true,
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    summary: {
       type: DataTypes.STRING,
       allownull: false,
     },
-    detail: {
+    instructions: {
+      type: DataTypes.TEXT,
+      allownull: false,
+    },
+    ingredients: {
+      type: DataTypes.TEXT,
+      allownull: false,
+    },
+    serves: {
       type: DataTypes.INTEGER,
       allownull: false,
+    },
+    prepTime: {
+      type: DataTypes.STRING,
+      allownull: true,
+    },
+    cookTime: {
+      type: DataTypes.INTEGER,
+      allownull: true,
     },
     cuisineType: {
       type: DataTypes.STRING,

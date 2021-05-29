@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS mamasCooking_db;
-CREATE DATABASE mamasCooking_db;
+DROP DATABASE IF EXISTS cooking_db;
+CREATE DATABASE cooking_db;
