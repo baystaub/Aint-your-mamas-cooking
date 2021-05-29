@@ -11,5 +11,15 @@ module.exports = {
         new Date(date).getFullYear() + 5
       }`;
     },
+
+      format_latin: () => {
+      if (err) throw err;
+      con.query("SELECT * FROM  recipe WHERE recipe.cuisineType = 'latin' ", function (err, result) {
+        if (err) throw err;
+        console.log(result);
+      });
+    }
+
+
   };
   
