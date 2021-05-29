@@ -1,6 +1,155 @@
 [
 {
+"cuisineType": "Latin Cuisine",
+"Image": "https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309105/lomo_saltado_lghpm9.jpg",
 "name": "Lomo Saltado",
+"summary": "A famous Peruvian stir fry dish with beef and vegetables sauteed together.",
+"ingredients": "1 pound of beef tri tip sliced to 1/8 thick slices, 1 large red onion sliced into strips, 3 large roma tomatoes – peeled seeded and sliced into strips,  1 yellow chili pepper or jalapeno pepper, 1/4 cup distilled white vinegar, 1-2 dashed of soy sauce, 1 teaspoon of cumin 1 tsp black pepper, 1/2 bundle of cilantro, 1 cup of white rice, 3 large brown russet potatoes(or you can just use frozen fries)",   
+"serves": "5",
+"prepTime":"60",
+"instructions":"Cut all vegetables according to the sizes and then peel and cut the potatoes and let them soak in cold water before frying them. Mix the vinegar and soy sauce in a cup and put to the side for later use. Get a pot out and wash the cup of rice until the water is clear. Add water until it covers the rice and make sure the water doesn’t cover more than half of your thumb from the top of your rice or it will be too mushy. Once it boils, put the temperature down to a lower flame and cover for about 20 minutes to cook. Take a frying pan, a wok would be the best, and fry the meat to a medium rare and then take out of the pan. Add the onions, tomatoes and pepper and cook until they begin to get a little soft and then add the sauce you mixed together earlier, add the meat and spices and cilantro. Cook until the beef is to your liking. Add a portion of rice and potatoes to a plate and place the meat and vegetables over that and enjoy!"
+},
+
+
+
+{
+"cuisineType": "Latin Cuisine",
+"Image": "https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309196/tongue_tacos_i36mjj.jpg",
+"name": "Tongue Tacos",
+"summary": "Traditional Mexican recipe for Beef Tongue Tacos/Tacos De Lengua with a spicy salsa to pour on top.",
+"ingredients": "1 full beef tongue, 1/2 white onion sliced, 5 crushed garlic cloves, 3 bay leaves, salt and pepper to taste, olive or vegetable oil, 5 serrano peppers, 1/2 white onion diced, 3 roma tomatoes, 1 tablespoon oregano, 1 teaspoon cumin, 1/2 bundle of cilantro, 1 block of mozzerla cheese, 1 avocado sliced, 2 to 3 limes, tortillas (corn or flour)",
+"serves": "6",
+"prepTime":"240",
+"instructions":"First, to cook the beef tongue, put it in a stock pot with the bay leaves, garlic cloves, sliced onions and a pinch of salt, then fill it with water to cover the tongue and let it simmer for 2-3 hours. Once it is done, take the tongue out and chill in an ice bath for 30 seconds so it can be cool enough to hold and peel off the skin. Once you have peeled the skin off, cut into small dime sized cubes. Take out a skillet over medium heat and pour some oil in the pan and let it heat it up. Then add the serrano peppers, tomatoes, diced onions and garlic cloves until they are all softened on all sides. Put the ingredients in a blender and add salt, pepper, cumin and oregano and blend. Once done put that on the side as a salsa and build your tacos and enjoy!"
+
+},
+
+
+
+
+{
+"cuisineType": "American Cuisine", 
+"Image": "https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309179/steakhouse_cheesburger_hleixb.jpg",
+"name": "Steakhouse Cheeseburger",
+"summary": "A classic All-American beef cheeseburger",
+"ingredients":"2 pieces of white sandwich bread, with the crust removed and cut into 1/4inch pieces, 1/3 cup milk, 2 ½ teaspoons of salt, 1 teaspoon of black pepper, 3 minced garlic cloves, 1 ½ tablespoons of Worcestershire sauce, 2 tablespoons ketchup, 3 pounds of 85% lean ground beef, 3 green onions finely sliced, Cheese of your choosing, 8 hamburger buns",    
+"serves": "8",
+"prepTime":"60",
+"instructions":"Preheat the grill to high heat. In a large bowl, mash the bread and milk together with a fork until it forms a chunky paste. Add the salt, pepper, garlic, Worcestershire sauce and ketchup and mix well. Add the ground beef and scallions and break the meat up with your hands. Mix everything together until just combined. Divide the mixture into 8 equal portions and form balls. Flatten the balls into 3/4-inch patties about 4-1/2 inches across. Form a slight depression in the center of each patty to prevent the burgers from puffing up on the grill. Oil the grilling grates. Grill the burgers, covered, until nicely browned on the first side, 2 to 4 minutes. Flip burgers, add a slice of cheese of your choosing and continue cooking for a few minutes or more until desired doneness is reached. Before serving, toast the buns on the cooler side of the grill if desired and enjoy!"
+},
+
+
+
+
+{
+"cuisineType": "American Cuisine",
+"Image": "https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309069/fresh_corn_salad_gel9xq.jpg",
+"name": "Fresh Corn Salad",
+"summary": "A simple corn salad that you can bring over to your next potluck",
+"ingredients":"5 ears of shucked corn, 1/2 cup red onion diced small, 3 tablespoons of lemon juice, 3 tablespoons of olive oil, 1/2 teaspoon of salt, 1/2 teaspoon of black pepper, 1/2 cup of chopped fresh basil leaves",
+"serves": "6",
+"prepTime":"20",
+"instructions":"In a large pot of boiling salted water, cook the corn for 3 minutes until the starchiness is just gone. Drain and immerse it in ice water to stop the cooking and to set the color. When the corn is cool, cut the kernels off the cob, cutting close to the cob. Then toss the kernels in a large bowl with the red onions, olive juice, olive oil, salt, and pepper. Just before serving, toss in the fresh basil. Taste for seasonings and serve cold or at room temperature and enjoy!"
+},
+
+
+
+
+
+{
+"cuisineType": "Asian Cuisine",
+"Image": "https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309013/drunken_noodles_io16au.jpg",
+"name": "Drunken Noodles",
+"summary": "A famous thai fusion street dish",
+"ingredients":"Choose an 8 oz portion of pork, chicken, beef, shrimp, extra firm tofu or mixture of the proteins, 1 tsp fish sauce, 1 clove garlic, grated, pinch of white pepper, 2 tbsp oyster sauce, 1 tbsp fish sauce, 1 tbsp soy sauce, 1 tsp dark soy sauce, 2 tbsp palm sugar or honey, pinch of white pepper, 2 tbsp cooking oil, 8 cloves garlic, crushed then chopped, 1 to 5 Thai chili, crushed then chopped, 1 large shallot, sliced, 1 lb fresh rice noodle sheets, 1 red chili, sliced, optional, 2 cups of fresh Basil finely chopped",
+"serves": "2",
+"prepTime":"60",
+"instructions":"Cut the noodle sheets into large chunks and separated or dried rice noodles soaked in hot water for 15 minutes then drained(or you can just buy some extra wide rice noodles and follow the package of how to prepare them. Mix your choice of protein, fish sauce, garlic and white pepper in a mixing bowl and let it marinate while preparing other ingredients, about 10 minutes. Combine oyster sauce, fish sauce, soy sauce, dark soy sauce and palm sugar in a small mixing bowl and set aside. Heat a large skillet or a wok over high heat until smoking. Add cooking oil swirl to coat. Add garlic, chili and shallot. Stir fry for 30 second to 1 minute. Add marinated protein and stir fry for 1 to 2 minutes. Add prepared noodles and the sauce mixture. Toss and stir everything tighter for 2 minutes and If the noodles are stick together too much, add 1 tsp of cooking oil at a time. Turn off the heat and add basil and red chili. Toss everything together and serve immediately with a lime wedge. Enjoy!"
+},
+
+
+{
+"cuisineType": "Asian Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309142/miso_soup_mfbmjy.jpg",
+"name": "Miso Soup",
+"summary": "A classic japanese soup that has been around for centuries",
+"ingredients": "-1 pound of beef tri tip, sliced to 1/8 thick slices",
+"serves": "2",
+"prepTime":"30",
+"instructions":"Place vegetable broth in a medium sauce pan and bring to a low simmer. In the meantime, place miso (starting with lesser end of range) into a small bowl, add a little hot water and whisk until smooth. This will ensure it doesn’t clump when added to the soup later. Set aside. To the broth add chard (or other greens of choice), green onion, and tofu (if using silken, add at the end of cooking) and cook for 5 minutes. Then add nori and stir. Remove from heat, add miso mixture, and stir to combine. Taste and add more miso or a pinch of sea salt if desired. Serve warm. Best when fresh."
+},
+
+
+{
+"cuisineType": "Middle Eastern Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309087/lamb_kabab_cik2vr.jpg",
+"name": "Ground Lamb Kabab",
+"summary":"A signature Pesian grilled meat dish that you can eat with bread or rice",
+"ingredients":"1lb ground lamb and 1b ground beef mixed together, 1 1/2 teaspoons of black pepper, 2 teaspoons of salt, 1 white onion grated small (make sure there are not big pieces), 1 pinch of saffron crushed and diluted with luke warm water, 4 roma tomatoes cut in half, 1 red onion cut in 4, 4 serrano peppers, 2 cups of basil, 1 package of lavash bread (or you can use tortillas or pita bread",
+"serves": "8",
+"prepTime":"120",
+"instructions":"Take the meat mixture, grated white onion, salt and pepper and mix and combine well. Make sure you mix with both hands and picking up the meat mixture while kneading from different angles. It needs to have the ingredients spread evenly throughout so that every bite is even. Once done, add the saffron and repeat the kneading and mixing process then put in a mixing bowl, cover and put in the fridge for 2-4 hours. While you are waiting you can get your tomatoes, onions and serrano peppers cut and put on metal skewers; you can put them on wood skewers too if you don’t have metal skewers. After the meat mixture has been in the fridge, you are now ready to put them on the skewers and start grilling. For best results, you need to use metal skewers and form them on, but it you don’t have them, you can make them in to patties and fry them on a skillet or on the grate of the grill. After grilling serve with fresh bread and basil and enjoy!"
+
+},
+
+
+{
+"cuisineType": "Middle Eastern Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309042/falafel_mtklrh.jpg",
+"name": "Falafel",
+"summary": "Originally an Eqyptian dish going back 1000 years, this fun treat is now global",
+"ingredients":"1lb dry chickpeas (also known as garbanzo beans), 1 small onion, roughly chopped, 1/4 cup chopped fresh parsley, 3-5 cloves garlic (I prefer roasted garlic cloves), 1 1/2 tbsp flour or chickpea flour,1 3/4 tsp salt, 2 tsp cumin, 1 tsp ground coriander, 1/4 tsp black pepper, 1/4 tsp cayenne pepper, Vegetable oil for frying - grapeseed, sunflower, avocado, canola, and peanut oils all work well",
+"serves": "6",
+"prepTime":"60",
+"instructions":"Start by soaking the dried chickpeas: Add dried chickpeas (garbanzo beans) to a large bowl and cover by quite a few inches of water. Set the bowl aside and let the beans rehydrate until they triple in size which will take many hours. Once that process is over put all falafel ingredients in a food processor: Roughly chop the onion/scallions, and then add them to the food processor with the chickpeas, garlic, herbs, spices, salt, and pepper. Then pulse until the mixture is chopped small, but before it is smooth.  Cover the falafel mix and refrigerate for 1 hour. After that, form balls from the falafel mix. The mixture might seem like it wants to fall apart, but it will not. Just scoop 1 1/2 tablespoons or so of the mix and press it into a ball or oblong shape with the palms of your hands. Cook the falafel in about 3/4 inch of oil and then place on a paper towel. Put them in a pita or just eat them alone with a dipping sauce!"
+},
+
+
+{
+"cuisineType": "Vegetarian Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309217/Vegetarian_Fajitas_tj5oxs.jpg",
+"name": "Vegetarian Fajitas",
+"summary": "A vegetarian twist on the classic fajitas",
+"ingredients":"1/2 tablespoon olive oil, 1 large onion thinly sliced in strips, 2 bell peppers seeded and thinly sliced in strips, 1 garlic clove minced, 2 portabella mushrooms sliced into ½ inch slices, ½ teaspoon smoked paprika, ½ teaspoon onion powder, ½ teaspoon black pepper, ½ teaspoon cumin, ½ teaspoon salt, 1 lime zest and lime juice, 1 bundle of minced cilantro, 2 avocados sliced thinly",
+"serves": "6",
+"prepTime":"35",
+"instructions":"Preheat a 12 inch cast iron skillet over medium-high heat. Add in oil, onions, and peppers. Saute for 4-5 minutes or until onions begin to soften and caramelize. Add in garlic, portabello mushrooms and spices. Saute for 4-5 minutes longer until mushrooms soften and the liquid that was released into the pan mostly renders off turn off the heat and add in the zest and juice of one lime. Use a slotted spoon and serve on top of your favorite tortillas and add the avocado slices and enjoy!"
+},
+
+
+{
+"cuisineType": "Vegetarian Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622308965/Butternut_Squash_Curry_kisxt2.jpg",
+"name": "Butternut Squash Curry",
+"summary": "A classic Indian curry recipe who are known for their grand assortment of delicious vegetarian food ",
+"ingredients":"200g brown basmati rice, 1 tbsp olive oil, 1 butternut squash, diced, 1 red onion, diced, 2 tbsp mild curry paste,  300ml vegetable stock, 4 large tomatoes, roughly chopped, 400g can chickpeas, rinsed and drained, 3 tbsp fat-free Greek yogurt, 1 cup coriander, chopped",
+"serves": "4",
+"prepTime":"60",
+"instructions":"Cook the rice in boiling salted water, as per pack instructions. Meanwhile, heat the oil in a large frying pan and cook the butternut squash for 2-3 mins until lightly browned. Add the onion and the curry paste and fry for 3-4 mins more. Pour over the stock, then cover and simmer for 15-20 mins, or until the squash is tender. Add the tomatoes and chickpeas, then gently cook for 3-4 mins, until the tomatoes slightly soften. Take off the heat and stir through the yogurt and coriander. Serve with the rice and enjoy!"
+},
+
+
+{
+"cuisineType": "Italian Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309160/SpinachLasagna_ycwycr.jpg",
+"name": "Spinach and Basil Beef Lasagna",
+"summary": "A modern twist of a centuries old dish",
+"ingredients":"1 pound lean ground beef (90% lean), 1 medium onion, chopped, 1 can of crushed tomatoes, 4 garlic cloves, minced, 1 teaspoon dried oregano, 2 cups of fresh spinach cut finely , 2 cups ricotta cheese, 2 cups shredded part-skim mozzarella cheese, 9  lasagna noodles, Minced fresh basil",
+"serves": "12",
+"prepTime":"60",
+"instructions":"In a large skillet, cook beef, onion, tomatoes, spinach, oregano and garlic over medium heat until meat is cooked. Reduce heat; cover and simmer for 10 minutes. In a large bowl, combine the fresh basil ricotta and 1 cup mozzarella cheese. In another pot prepare and cook your lasagna noodles and then drain and put them to the side. Spread 1-1/2 cups meat sauce into a greased 13x9-in. baking dish. Top with 3 noodles. Spread 1-1/2 cups sauce to edges of noodles. Top with half of the ricotta and basil mixture. Repeat layers. Top with the remaining noodles, sauce and mozzarella cheese. Cover and bake at 375° for 30 minutes. Uncover; bake until bubbly, 10-15 minutes longer. Let stand for 10 minutes before cutting."
+},
+
+
+{
+"cuisineType": "Italian Cuisine",
+"Image":"https://res.cloudinary.com/aintyourmamascooking/image/upload/v1622309125/margherita_pizza_co9fde.jpg",
+"name": "Margherita Pizza",
+"summary": "A fun and easy clasic pizza that everyone can enjoy",
+"ingredients":"1 can (13.8 oz) refrigerated Pillsbury™ Classic Crust Pizza Crust, 1 tablespoon olive oil, ½ cup crushed tomatoes (from 14.5-oz can), 3 cloves garlic, finely chopped, 1 teaspoon of cayenne pepper, 8 oz fresh mozzarella cheese pearls, patted dry, ½ cup small fresh basil leaves",
+"serves": "6",
+"prepTime":"35",
+"instructions":"Spray 15x10-inch or larger dark or nonstick cookie sheet with cooking spray. Heat oven to 400°F (425°F for all other pan types). Unroll dough in pan; starting at center, press dough into 15x10-inch rectangle. Brush with olive oil. Bake 8 minutes. Top crust with tomatoes, garlic and spread around the crust as well as the cayenne pepper and then layer with fresh basil leaves. Top with mozzarella cheese. Bake 5 to 9 minutes or until crust is golden brown and cheese is melted.  To serve, cut into 6 rows by 3 rows and enjoy!"
 "summary": "A famous Peruvian stir fry dish with beef and vegetables sauteed together",
 "ingredients": [ "-1 pound of beef tri tip, sliced to 1/8 thick slices", "1 large red onion, sliced into strips",
 "3 large roma tomatoes – peeled, seeded and sliced into strips",
