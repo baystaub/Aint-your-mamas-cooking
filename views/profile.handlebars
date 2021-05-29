@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h1>Welcome, {{name}}!</h1>
   </div>
 </div>
 
@@ -22,7 +22,7 @@
           <option>American</option>
           <option>Asian</option>
           <option>Middle-Eastern</option>
-          <option>Mediterranean</option>
+          <option>Italian</option>
         </select>
       </div>
 
@@ -42,7 +42,7 @@
       <div class="form-group">
         <div class="container">
           <div class="ingredients">
-            <h2>Ingredent list<span id="count"></span></h2>
+            <h2>Ingredient list<span id="count"></span></h2>
             <div class="input">
               <input type="text" id="title" autocomplete="off">
               <button id="add-ingredients">
@@ -63,7 +63,7 @@
       </div>
 
       <div class="row py-4">
-        <div class="col-lg-6 mx-auto">
+        <div class="col-lg-8 8mx-auto">
 
           <!-- Upload image input-->
           <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
@@ -112,4 +112,12 @@
 {{/if}}
 </div>
 
+<div class="bottom-container">
+  <footer>
+    2021 University of Denver Bootcamp
+  </footer>
+</div>
+
+<!--Helped solve an issuse with line 19 in profile.js (Uncaught ReferenceError: $ is not defined)-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="./js/profile.js"></script>
