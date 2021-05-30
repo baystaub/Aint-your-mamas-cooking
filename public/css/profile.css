@@ -1,0 +1,93 @@
+.row1 {
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: 50px;
+}
+
+h1 {
+  position: relative;
+  left: 170px;
+}
+
+h2 {
+  position: relative;
+  right: 20px;
+}
+
+.col-md-6 {
+  position: relative;
+  left: 30px;
+}
+
+.form-group2 {
+  margin-top: 10px;
+}
+
+.current-recipes {
+  position: relative;
+  left: 30px;
+}
+
+.input {
+  position: relative;
+  right: 15px;
+}
+
+.dir {
+  position: relative;
+  bottom: 37px;
+  float: left;
+}
+
+.form-input {
+  position: relative;
+  left: 5px;
+}
+
+.bar {
+  width: 700px;
+  float: left;
+  position: relative;
+}
+
+button:hover {
+  background-color: rgb(6, 211, 6);
+}
+
+.current-recipes {
+  margin-bottom: 40px;
+}
+
+.box {
+  position: absolute;
+  left: 25px;
+}
+
+.form-group7 {
+  margin-top: 50px;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  font-size: 25px;
+  font-weight: 25px;
+}
+
+.bottom-container {
+  width: 100%;
+  background-color: grey;
+  height: 25px;
+}

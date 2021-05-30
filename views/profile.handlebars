@@ -1,129 +1,124 @@
-<div class="row">
-  <div class="col-auto">
-    <h1>Welcome, {{name}}!</h1>
+<div class="row1">
+    <div class="col-auto">
+      <h1>Welcome, {{name}}!</h1>
+    </div>
   </div>
-</div>
-
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Create a Recipe:</h3>
-
-    <form class="form new-recipe-form">
-
-      <div class="form-group">
-        <label for="recipe-name">Recipe name:</label>
-        <input class="form-input" type="text" id="recipe-name" name="recipe-name" />
-      </div>
-
-      <div class="form-group">
-        <label for="cuisine-type"> Cuisine-type:</label>
-        <select class="form-control" id="cuisine-type" >
-          <option>Latin</option>
-          <option>American</option>
-          <option>Asian</option>
-          <option>Middle-Eastern</option>
-          <option>Italian</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="prepTime">Prep time:</label>
-        <input class="form-input" type="number" id="prep-time" name="prep-time" />
-      </div>
-      <div class="form-group">
-        <label for="cookTime">Cook Time:</label>
-        <input class="form-input" type="number" id="cook-time" name="cook-time" />
-      </div>
-      <div class="form-group">
-        <label for="serves">Serves:</label>
-        <input class="form-input" type="number" id="serves" name="serves" />
-      </div>
-
-      <div class="form-group">
-        <div class="container">
-          <div class="ingredients">
-            <h2>Ingredient list<span id="count"></span></h2>
-            <div class="input">
-              <input type="text" id="title" autocomplete="off">
-              <button id="add-ingredients">
-                Add ingredients
-              </button>
-            </div>
-            <div class="ingredients-list">
-              <ul id="ingredients-list">
-                
-              </ul>
+  
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h3>Create a Recipe:</h3>
+  
+      <form class="form new-recipe-form">
+  
+        <div class="form-group">
+          <label for="recipe-name">Recipe name:</label>
+          <input class="form-input" type="text" id="recipe-name" name="recipe-name" />
+        </div>
+  
+        <div class="form-group">
+          <label for="cuisine-type"> Cuisine-type:</label>
+          <select class="form-control">
+            <option>Latin</option>
+            <option>American</option>
+            <option>Asian</option>
+            <option>Middle-Eastern</option>
+            <option>Italian</option>
+          </select>
+        </div>
+  
+        <div class="form-group">
+          <label for="prep-time">Prep time:</label>
+          <input class="form-input" type="number" id="prep-time" name="prep-time" />
+        </div>
+        <div class="form-group">
+          <label for="cook-time">Cook Time:</label>
+          <input class="form-input" type="number" id="cook-time" name="cook-time" />
+        </div>
+        <div class="form-group">
+          <label for="feeds">Feeds:</label>
+          <input class="form-input" type="number" id="feeds" name="feeds" />
+        </div>
+  
+        <div class="form-group">
+          <div class="container">
+            <div class="ingredients">
+              <h2>Ingredent list<span id="count"></span></h2>
+              <div class="input">
+                <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+                <button id="add-ingredients">
+                  Add ingredients
+                </button>
+              </div>
+              <div class="ingredients-list">
+                <ul id="ingredients-list">
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="form-group">
-        <label for="recipe-desc">Instructions:</label>
-        <textarea class="form-input" id="recipe-desc" name="recipe-desc"></textarea>
-      </div>
-
-      <div class="form-group">
-        <label for="recipe-desc">Summary:</label>
-        <textarea class="form-input" id="recipe-summary" name="recipe-summary"></textarea>
-      </div>
-
-      <div class="row py-4">
-        <div class="col-lg-8 8mx-auto">
-
-          <!-- Upload image input-->
-          <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
-            <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0">
-            <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>
-            <div class="input-group-append">
-              <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i
-                  class="fa fa-cloud-upload mr-2 text-muted"></i><small
-                  class="text-uppercase font-weight-bold text-muted">Choose
-                  file</small></label>
+  
+        <div class="form-group">
+          <label for="recipe-desc">Directions:</label>
+          <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+        </div>
+  
+        <div class="row py-4">
+          <div class="col-lg-8 6mx-auto">
+  
+            <!-- Upload image input-->
+            <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+              <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0">
+              <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>
+              <div class="input-group-append">
+                <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i
+                    class="fa fa-cloud-upload mr-2 text-muted"></i><small
+                    class="text-uppercase font-weight-bold text-muted">Choose
+                    file</small></label>
+              </div>
             </div>
+  
+            <!-- Uploaded image area-->
+            <p class="font-italic text-white text-center">The image uploaded will be
+              rendered inside the box below.</p>
+            <div class="image-area mt-4"><img id="imageResult" src="#" alt=""
+                class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+  
           </div>
-
-          <!-- Uploaded image area-->
-          <p class="font-italic text-white text-center">The image uploaded will be
-            rendered inside the box below.</p>
-          <div class="image-area mt-4"><img id="imageResult" src="#" alt=""
-              class="img-fluid rounded shadow-sm mx-auto d-block"></div>
-
+        </div>
+    </div>
+  
+  
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+    </form>
+  </div>
+  <div class="current-recipes">
+    {{#if recipes.length}}
+    <div class="col-md-6 project-list">
+      <h3>Current Recipies:</h3>
+  
+      {{#each recipes as |recipe|}}
+      <div class="row mb-2">
+        <div class="col-md-8">
+          <h4><a href="/project/{{recipe.id}}">{{recipe.name}}</a></h4>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
         </div>
       </div>
-  </div>
-
-
-  <div class="form-group">
-    <button type="submit" class="btn btn-primary">Create</button>
-  </div>
-  </form>
-</div>
-
-{{#if recipes.length}}
-<div class="col-md-6 project-list">
-  <h3>Current Recipies:</h3>
-
-  {{#each recipes as |recipe|}}
-  <div class="row mb-2">
-    <div class="col-md-8">
-      <h4><a href="/project/{{recipe.id}}">{{recipe.name}}</a></h4>
+      {{/each}}
     </div>
-    <div class="col-md-4">
-      <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
+    {{/if}}
     </div>
   </div>
-  {{/each}}
-</div>
-{{/if}}
-</div>
 
-<div class="bottom-container">
-  <footer>
-    2021 University of Denver Bootcamp
-  </footer>
-</div>
+  <div class="bottom-container">
+    <footer>
+        2021 University of Denver Bootcamp
+    </footer>
+  </div>
 
-<!--Helped solve an issuse with line 19 in profile.js (Uncaught ReferenceError: $ is not defined)-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="./js/profile.js"></script>
+  <!--Helped solve an issuse with line 19 in profile.js (Uncaught ReferenceError: $ is not defined)-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="./js/profile.js"></script>
