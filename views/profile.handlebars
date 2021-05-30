@@ -3,6 +3,7 @@
       <h1>Welcome, {{name}}!</h1>
     </div>
   </div>
+<<<<<<< HEAD
   
   <div class="row mt-4">
     <div class="col-md-6">
@@ -53,6 +54,60 @@
                 <ul id="ingredients-list">
                 </ul>
               </div>
+=======
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Create a Recipe:</h3>
+
+    <form class="form new-recipe-form">
+
+      <div class="form-group">
+        <label for="recipe-name">Recipe name:</label>
+        <input class="form-input" type="text" id="recipe-name" name="recipe-name" />
+      </div>
+
+      <div class="form-group">
+        <label for="cuisine-type"> Cuisine-type:</label>
+        <select class="form-control" id="cuisine-type" >
+          <option>Latin</option>
+          <option>American</option>
+          <option>Asian</option>
+          <option>Middle-Eastern</option>
+          <option>Italian</option>
+          <option>Vegetarian</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="prepTime">Prep time:</label>
+        <input class="form-input" type="number" id="prep-time" name="prep-time" />
+      </div>
+      <div class="form-group">
+        <label for="cookTime">Cook Time:</label>
+        <input class="form-input" type="number" id="cook-time" name="cook-time" />
+      </div>
+      <div class="form-group">
+        <label for="serves">Serves:</label>
+        <input class="form-input" type="number" id="serves" name="serves" />
+      </div>
+
+      <div class="form-group">
+        <div class="container">
+          <div class="ingredients">
+            <h2>Ingredent list<span id="count"></span></h2>
+            <div class="input">
+              <input type="text" id="title" autocomplete="off">
+              <button id="add-ingredients">
+                Add ingredients
+              </button>
+            </div>
+            <div class="ingredients-list">
+              <ul id="ingredients-list">
+                
+              </ul>
+>>>>>>> 121d53b57112f0f99f8e2a080e32aaf747b35e89
             </div>
           </div>
         </div>
