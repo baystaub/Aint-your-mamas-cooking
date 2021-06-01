@@ -2,29 +2,29 @@
     <div class="container this-recipe-container">
         <div class="row text-center my-4">
             <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <div class="this-recipe-image"><img width="100%" height="100%" src="{{recipe.Image}}"></noscript>
+                <div class="this-recipe-image"><img width="100%" height="100%" src="{{recipe.image}}"></noscript>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4  ">
-                <h1 class="this-recipe-name">{{recipe.name}} </h1>
+                <h1 class="this-recipe-name">{{recipe.dishName}} </h1>
                 <div class="recipe-times container this-color-border">
                     <div class="time-container this-color-border">
                         <div class="recipe-time-header">Prep Time</div>
-                        <div class="recipe-time"><span class="">{{prepTime}}</span>mins</div>
+                        <div class="recipe-time"><span class="">{{recipe.prepTime}}</span>mins</div>
                     </div>
                     <div class="recipe-time-container this-color-border">
                         <div class="this-recipe-time-header">Cook Time</div>
-                        <div class="this-recipe-time"><span class=" cook-time">{{cookTime}}</span>mins</span>
+                        <div class="this-recipe-time"><span class=" cook-time">{{recipe.cookTime}}</span>mins</span>
                         </div>
                     </div>
                     <div class="recipe-time-container this-color-border">
                         <div class="recipe-serves ">Serves</div>
-                        <div class="recipe-serves"><span class="this-serves">{{serves}}</span>
+                        <div class="recipe-serves"><span class="this-serves">{{recipe.serves}}</span>
                         </div>
                     </div>
                 </div>
                 <div class="this-recipe-summary">
-                    <p>{{summary}}
+                    <p>{{recipe.summary}}
                     </p>
                 </div>
             </div>
@@ -35,11 +35,11 @@
                 <div class="this-recipe-cuisine-container text-center">
                     <span class="this-recipe-cuisine-name">Cuisine:</span>
                     <span class="this-recipe-cuisine">
-                        {{cuisineType}} </span>
+                        {{cuisine.title}} </span>
                 </div>
                 <div class="this-recipe-cuisine-container text-center">
                     <span class=" this-recipe-author-name text-center">Author</span>:
-                    <span class=" this-recipe-author">{{user.name}}</span>
+                    <span class=" this-recipe-author">{{user.userName}}</span>
                 </div>
             </div>
         </div>
@@ -71,10 +71,7 @@
     </div>
     
 
-    {{> comment }}
 
-
-    {{> commentform }}
 
 
 </section>

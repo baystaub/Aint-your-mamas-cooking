@@ -12,11 +12,11 @@ Recipes.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    Image: {
+    image: {
       type: DataTypes.STRING,
       allownull: true,
     },
-    name: {
+    dishName: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -37,15 +37,11 @@ Recipes.init(
       allownull: false,
     },
     prepTime: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       allownull: true,
     },
     cookTime: {
       type: DataTypes.INTEGER,
-      allownull: true,
-    },
-    cuisineType: {
-      type: DataTypes.STRING,
       allownull: true,
     },
     date_created: {
@@ -57,6 +53,13 @@ Recipes.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'user',
+        key: 'id',
+      },
+    },
+    cuisine_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'cuisine',
         key: 'id',
       },
     },
