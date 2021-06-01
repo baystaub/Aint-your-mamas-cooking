@@ -2,12 +2,25 @@ const router = require('express').Router();
 const { Recipes } = require('../../models');
 
 router.post('/', async (req, res) => {
+  console.log("hello")
   try {
     const recipeData = await Recipes.create({
       description: req.body.post,
-      name: req.body.title,
+      dishName: req.body.dishName,
+      summary: req.body.summary,
+      instructions: req.body.instructions,
+      ingredients: req.body.ingredients,
+      serves: req.body.serves,
+      prepTime: req.body.prepTime,
+      cookTime: req.body.cookTime,
+      date_created: req.body.date_created,
+      image: req.body.image,
+      cuisine_id: req.body.cuisine_id,
+      
       user_id: req.session.user_id,
     });
+
+    console.log(req.body)
     const recipe = recipeData.get({ plain: true });
     res.status(200).json({ recipe });
   } catch (error) {

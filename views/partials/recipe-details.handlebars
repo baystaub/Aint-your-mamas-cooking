@@ -1,4 +1,4 @@
-<section class="card">
+<section class="card justify-content-center text-center">
   <!-- The contents of the painting card links to the painting page using the painting ID -->
   <a href="/recipe/{{id}}">
     <!-- The card contains the painting name as the card header -->
@@ -6,7 +6,8 @@
     <!-- In the body of the card, the painting is rendered along with the artist name -->
 
     <div class="card-body">
-      <img src="{{recipe.image}}">
+      <img width="250px" height="250px"  src="{{image}}">
+      <p >{{summary}}</p>
       <p>Recipe By: {{user.userName}}</p>
     </div>
   </a>
