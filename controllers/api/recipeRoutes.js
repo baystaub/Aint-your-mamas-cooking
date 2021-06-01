@@ -5,7 +5,7 @@ router.post('/', async (req, res) => {
   try {
     const recipeData = await Recipes.create({
       description: req.body.post,
-      name: req.body.title,
+      dishName: req.body.dishName,
       user_id: req.session.user_id,
     });
     const recipe = recipeData.get({ plain: true });
