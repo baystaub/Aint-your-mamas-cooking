@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS ki6v2k2rmlhquvn6;
-CREATE DATABASE ki6v2k2rmlhquvn6;
+DROP DATABASE IF EXISTS cooking_db;
+CREATE DATABASE cooking_db;
