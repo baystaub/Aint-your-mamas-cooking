@@ -1,4 +1,4 @@
-
+<section class="container d-block">
 <div class="row">
   <div class="col-auto">
     <h2>Welcome, {{userName}}!</h2>
@@ -19,14 +19,16 @@
 
       <div class="form-group">
         <label for="cuisine-type"> Cuisine-type:</label>
-        <select class="form-control" id="cuisine-type" >
-          <option id="1">American</option>
-          <option id="2">Asian</option>
-          <option id="3">Latin</option>
-          <option id="4" >Middle-Eastern</option>
-          <option id="5">Italian</option>
-          <option id="6">Vegetarian</option>
+
+        <select class="form-control" id="cuisine-type">
+          <option value="1">American</option>
+          <option value="2">Asian</option>
+          <option value="3">Latin</option>
+          <option value="4">Middle-Eastern</option>
+          <option value="5">Italian</option>
+          <option value="6">Vegetarian</option>
         </select>
+
       </div>
 
       <div class="form-group">
@@ -41,12 +43,12 @@
         <label for="serves">Serves:</label>
         <input class="form-input" type="number" id="serves" name="serves" />
       </div>
-        <div class="form-group">
-          <label for="recipe-desc">Recipe Summary:</label>
-          <textarea class="form-input" id="recipe-summary" name="recipe-summary"></textarea>
-        </div>
       <div class="form-group">
-  
+        <label for="recipe-desc">Recipe Summary:</label>
+        <textarea class="form-input" id="recipe-summary" name="recipe-summary"></textarea>
+      </div>
+      <div class="form-group">
+
         <div class="form-group">
           <label for="recipe-desc">Ingredients:</label>
           <textarea class="form-input" id="ingredients-list" name="ingredients-list"></textarea>
@@ -55,10 +57,10 @@
           <label for="recipe-desc">Instructions:</label>
           <textarea class="form-input" id="instructions-desc" name="instructions-desc"></textarea>
         </div>
-  
+
         <div class="row py-4">
           <div class="col-lg-8 6mx-auto">
-  
+
             <!-- Upload image input-->
             <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
               <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0">
@@ -70,49 +72,49 @@
                     file</small></label>
               </div>
             </div>
-  
+
             <!-- Uploaded image area-->
             <p class="font-italic text-white text-center">The image uploaded will be
               rendered inside the box below.</p>
-            <div class="image-area mt-4"><img id="imageResult" src="#" alt=""
+            <div class="image-area mt-4"><img width="200px" height="200px" id="imageResult" src="#" alt=""
                 class="img-fluid rounded shadow-sm mx-auto d-block"></div>
-  
+
           </div>
         </div>
-    </div>
-  
-  
-    <div class="form-group">
-      <button type="submit" class="btn btn-primary">Create</button>
-    </div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+      </div>
     </form>
   </div>
   <div class="current-recipes">
     {{#if recipes.length}}
-    <div class="col-md-6 project-list">
+    <div class="col-md-6 recipe-list">
       <h3>Current Recipies:</h3>
-  
+
       {{#each recipes as |recipe|}}
       <div class="row mb-2">
         <div class="col-md-8">
           <h4><a href="/recipe/{{recipe.id}}">{{recipe.dishName}}</a></h4>
         </div>
         <div class="col-md-4">
-          <button class="btn btn-sm btn-danger" data-id="{{recipe.id}}">DELETE</button>
+          <button class="btn btn-sm btn-danger"  id="deletebtn" data-id="{{recipe.id}}">DELETE</button>
         </div>
       </div>
       {{/each}}
     </div>
     {{/if}}
-    </div>
   </div>
+</div>
 
-  <div class="bottom-container">
-    <footer>
-        2021 University of Denver Bootcamp
-    </footer>
-  </div>
+<div class="bottom-container">
+  <footer>
+    2021 University of Denver Bootcamp
+  </footer>
+</div>
+</section>
 
-  <!--Helped solve an issuse with line 19 in profile.js (Uncaught ReferenceError: $ is not defined)-->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="./js/profile.js"></script>
+<!--Helped solve an issuse with line 19 in profile.js (Uncaught ReferenceError: $ is not defined)-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./js/profile.js"></script>
