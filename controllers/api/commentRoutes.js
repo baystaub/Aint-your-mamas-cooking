@@ -25,7 +25,7 @@ router.get('/:id', withAuth, async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ['userName'],
         },
       ],
     });
@@ -35,7 +35,7 @@ router.get('/:id', withAuth, async (req, res) => {
       },
       include: {
         model: User,
-        attributes: ['name'],
+        attributes: ['userName'],
       },
     });
     const recipePlain = post.get({ plain: true });
