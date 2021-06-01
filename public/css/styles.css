@@ -53,18 +53,22 @@ aside{
     flex-wrap: wrap;
     max-width: 500px;
     max-height: auto;
-  }
+  } */
 
-  .container-card {
-    display: flex;
-    flex-wrap: wrap;
+ .container-card {
+    display: inline-flex;
     flex-flow: column wrap;
+    align-content: flex-start;
     align-items: center;
+    font-size:medium;
   }
 
 
   .card-body {
-    float: right;  
+    display: inline-flex;
+    max-width: 500px;
+    max-height: auto;
+    justify-content: right;
     font-size: 1.4rem;
     text-align: center;
     font-weight: bold;
@@ -156,4 +160,10 @@ aside{
 .mtb{
     margin-top: 200px;
     margin-bottom: 200px;
+}
+
+.row {
+    justify-content: center;
+   
+   
 }

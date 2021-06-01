@@ -2,9 +2,11 @@
 
 ## Project 2 Unit 15
 
-### homeWork
-- With your team, you’ll conceive and execute a design that solves a real-world problem. In creating your first collaborative full-stack application, you’ll combine a robust back end--with servers, databases, advanced APIs, and user authentication—-to an intuitive front end. You’ll continue to build on the agile development methodologies you’ve used throughout this course, like storing your project code in GitHub, managing your work with a project management tool, and implementing feature and bug fixes using the Git branch workflow and pull requests.
-- Instead of using the front end you developed for your first project, you should start from scratch. Doing so will help you reinforce your existing front-end abilities and solidify your understanding of the dynamic between the front end and back end. Also, you’ve likely improved your skills since that first project, so with a stronger foundation now you can build a better application, using all of the additional practice you’ve had in the last several weeks.
+## Table of Content
+- [User Story](#user-story)
+- [Our task](#our-task)
+- [Mock Up](#mock-up)
+- [Team #6](#team-#6)
 
 ### Technologies Used
 - npm i
@@ -18,8 +20,20 @@
 - Bycrypt
 - .env
 
-## Mock Up
+## User Story
+-Are you tired of making descions? Do you and your spouse agrue over what to cook? Have no fear because yo Mama's cooking is here!
 
+## Our Task
+- Create a webpage that will help make life easier for the stay at home foodie.
+Help people look and prepare breakfast, lunch or dinner with out the hassle of misinformation. 
+
+## Mock Up
+### Ain't Yo MAMA's Cooking
+[![main-page.jpg](https://i.postimg.cc/QN6YZXLB/main-page.jpg)](https://postimg.cc/bdt9Qfw8)
+
+[![Login-page.png](https://i.postimg.cc/Z5NwNpW3/Login-page.png)](https://postimg.cc/75x18CMY)
+
+[![BUrger-page.png](https://i.postimg.cc/gJgspK79/BUrger-page.png)](https://postimg.cc/FdJ3g0mG)
 
 
 
