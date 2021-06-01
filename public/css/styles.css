@@ -55,10 +55,10 @@ aside{
     max-height: auto;
   }
 
-  .container {
+  .container-card {
     display: flex;
+    flex-wrap: wrap;
     flex-flow: column wrap;
-    align-content: flex-start;
     align-items: center;
   }
 
