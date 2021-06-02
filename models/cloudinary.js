@@ -2,7 +2,7 @@ const util = require('util');
 const Formidable = require('formidable');
 const cloudinary = require('cloudinary');
 
-const submit = (`.submit`);
+const submit = `.submit`;
 require('dotenv').config();
 
 cloudinary.config({
