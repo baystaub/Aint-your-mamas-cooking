@@ -45,4 +45,4 @@ Help people look and prepare breakfast, lunch or dinner with out the hassle of m
 - Bailey Staub
 - Thai Lee
 
-## Class of 2021 University or Denver Full stackDevolor Boot Camp.
+## Class of 2021 University or Denver Full stackDevolor Boot Camp
